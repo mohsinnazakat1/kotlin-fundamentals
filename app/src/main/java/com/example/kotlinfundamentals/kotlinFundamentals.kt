@@ -188,3 +188,64 @@ package com.example.kotlinfundamentals
 //          else -> print("$test_val is something else")
 //      }
 //  }
+
+//Loops
+
+//while  and do while
+// fun main (){
+//     var counter = 100
+// while (counter <10){
+//     println("Mohsin ${counter++}")
+// }
+
+// while (counter >= 0){
+//    print("$counter ")
+//    counter -=2
+// }
+
+//     //do while 
+//     var x =1
+//     do {
+//         print("$x ")
+//         x++
+//     }while(x<=10 )
+
+
+// }
+
+
+//for loop
+    
+//fun main(){
+//    for (num in 1..10){
+//        print("$num")
+//    }
+//    for (i in 1 until 10 step(2)){
+//        print("$i ")
+//    }
+//    for (i in 10 downTo  1 step(2)){
+//        print("$i ")
+//    }
+//}
+
+
+// Loop Exercise
+
+//fun main () {
+//    for (i in 1..10000)
+//        if(i==9001)
+//            print("it's over 9000!!!")
+//}
+
+// fun main () {
+//     var humidity = "humid"
+//     var humidity_level = 80
+//     while(humidity=="humid"){
+//         humidity_level -=5
+//         print("\nhumiditiy Decreased")
+//         if(humidity_level<60){
+//             humidity="comfy"
+//             print("\nit's comfy now")
+//         }
+//     }
+// }
