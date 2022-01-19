@@ -28,7 +28,7 @@ package com.example.kotlinfundamentals
 
 // }
 
-// kotlin is a typed language (you assign a value to variable and kotlin determins tha type)
+//kotlin is a typed language (you assign a value to variable and kotlin determins tha type)
 
 // fun main () {
 //     val first_name = "Mohsin" //String
@@ -43,11 +43,23 @@ package com.example.kotlinfundamentals
 //     // you can assign type like this 
 //     var age: Byte = 23 // int 
 //     var age: Short = 23 // Short
-//     //...
 
+//     var myfloat: Float = 14.12F
+//     //or
+//     var myfloat = 14.12F
+
+//     // by default it will be doubble 
+//     var mydouble = 41.45
+
+
+}
+
+fun main () {
+    //boolean variables stores logical values true or false 
+    var isBoolean = true 
+    isBoolean = false
     
-
-// }
+}
 
 
  
