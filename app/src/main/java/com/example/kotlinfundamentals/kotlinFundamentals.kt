@@ -6,7 +6,6 @@ package com.example.kotlinfundamentals
 // function implementation in kotlin
 // fun main () {
 //     print("Hello World")
-
 // }
 
 
@@ -14,7 +13,6 @@ package com.example.kotlinfundamentals
 //     val name = "Mohsin"
 //     // string contcatination
 //     print("Hello World " + name)
-
 // }
 
 
@@ -249,3 +247,43 @@ package com.example.kotlinfundamentals
 //         }
 //     }
 // }
+
+
+
+// fun main () {
+//     var humidity = "humid"
+//     var humidity_level = 80
+//     while(humidity=="humid"){
+//         humidity_level -=5
+//         print("\nhumiditiy Decreased")
+//         if(humidity_level<60){
+//             humidity="comfy"
+//             print("\nit's comfy now")
+//         }
+//     }
+// }
+
+
+// break and continue 
+//fun main (){
+//    for (i in 1 until 20){
+//        print("$i")
+//        if(i==10)
+//            break// you go out of the loop when i == 10
+//    }
+//    print(("done with the loop"))
+//
+//}
+
+
+fun main (){
+    for (i in 1 until 20){
+
+        if(i==10)
+            continue // an iteration is skipped when i == 10
+        print("$i ")
+    }
+
+
+}
+
