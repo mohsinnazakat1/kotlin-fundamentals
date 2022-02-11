@@ -1,5 +1,7 @@
 package com.example.kotlinfundamentals
 
+import java.util.function.DoubleBinaryOperator
+
 // single line comment 
 /*mutli line comment in kotlin*/
 
@@ -308,11 +310,30 @@ package com.example.kotlinfundamentals
 //    return num1+num2
 //}
 
+// fun main (){
+//     //argument 
+//     print(add_function(2,3))
+//      print(add_function(2,3))
+// }
+// //parameter 
+// fun add_function (num1:Int, num2:Int): Int{
+//     return num1+num2
+// }
+
+// function defination //parameter function calling argument
+
+
+//methods
+//a function within the class
+
+//avg of two numbers
 fun main (){
-    print(add_function(2,3))
-     print(add_function(2,3))
+    print(avg(2.0,3.0))
 }
 
-fun add_function (num1:Int, num2:Int): Int{
-    return num1+num2
+fun avg(a:Double, b:Double): Double {
+    return (a + b) /2
+
+
 }
+
