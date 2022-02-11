@@ -310,6 +310,7 @@ package com.example.kotlinfundamentals
 
 fun main (){
     print(add_function(2,3))
+     print(add_function(2,3))
 }
 
 fun add_function (num1:Int, num2:Int): Int{
