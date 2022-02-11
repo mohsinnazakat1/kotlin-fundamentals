@@ -276,14 +276,42 @@ package com.example.kotlinfundamentals
 //}
 
 
+//fun main (){
+//    for (i in 1 until 20){
+//
+//        if(i==13)
+//            continue // an iteration is skipped when i == 10
+//        print("$i ")
+//    }
+//}
+
+
+
+// Functions - Parameters - Arguments and Return
+// make the re use of code easy
+//fun main (){
+//    print_something()
+//    print_something()
+//    print_something()
+//}
+//
+//fun print_something ( ){
+//    print("Hello")
+//}
+
+
+//fun main (){
+//    print(add_function(2,3))
+//}
+//
+//fun add_function (num1:Int, num2:Int): Int{
+//    return num1+num2
+//}
+
 fun main (){
-    for (i in 1 until 20){
-
-        if(i==10)
-            continue // an iteration is skipped when i == 10
-        print("$i ")
-    }
-
-
+    print(add_function(2,3))
 }
 
+fun add_function (num1:Int, num2:Int): Int{
+    return num1+num2
+}
