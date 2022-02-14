@@ -333,7 +333,5 @@ fun main (){
 
 fun avg(a:Double, b:Double): Double {
     return (a + b) /2
-
-
 }
 
