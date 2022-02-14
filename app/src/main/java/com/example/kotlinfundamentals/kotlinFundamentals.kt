@@ -327,12 +327,44 @@ import java.util.function.DoubleBinaryOperator
 //a function within the class
 
 //avg of two numbers
-fun main (){
-    print(avg(2.0,3.0))
+//fun main (){
+//    print(avg(2.0,3.0))
+//}
+//
+//fun avg(a:Double, b:Double): Double {
+//    return (a + b) /2
+//}
+
+// Nullables -> null values /
+
+//fun main ( ) {
+//    var name:String = "mohsin"
+//    name = "Mohsin" //allowed
+//    //  name = null //not allowed
+//    var nullableName: String? = "mohsin"
+//    nullableName = null //allowd no error in this case
+//    //old way
+//    if (nullableName != null){
+//        var nullLength= nullableName.length
+//
+//    }else{
+//        null
+//    }
+//    //new way
+//    var nullLength= nullableName?.length
+//    // ? is called safe call operator
+//
+//}
+//
+
+fun main ( ) {
+    var nullableName: String? = "mohsin"
+    nullableName = null
+    //new way
+
+    var nullLength= nullableName?.length
+    nullableName?.let { print(it.length) }
+    // only when the value is not null
+
 }
 
-fun avg(a:Double, b:Double): Double {
-    return (a + b) /2
-}
-
-// TODO:Nullable practice
